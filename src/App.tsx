@@ -1,6 +1,7 @@
 import Text from './components/text';
 import TrashIcon from './assets/icons/trash.svg?react';
 import Icon from './components/icon';
+import Button from './components/button';
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
         Olá Mundo
       </Text>
       <Icon svg={TrashIcon} className='fill-yellow-light' />
+      <Button disabled>Agendar</Button>
+      <Button className=''>Agendar</Button>
     </>
   );
 }
