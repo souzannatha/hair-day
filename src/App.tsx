@@ -1,4 +1,6 @@
 import Text from './components/text';
+import TrashIcon from './assets/icons/trash.svg?react';
+import Icon from './components/icon';
 
 export default function App() {
   return (
@@ -16,6 +18,7 @@ export default function App() {
       <Text as='p' variant='text-sm'>
         Olá Mundo
       </Text>
+      <Icon svg={TrashIcon} className='fill-yellow-light' />
     </>
   );
 }
